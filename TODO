@@ -1,0 +1,29 @@
+* Convert amounts to python decimals. --DONE--
+* Add historic rates (e.g. rate of last month). --DONE--
+* Doesn't work when there is no internet connection!
+   - Maybe add an offline mode?
+   - Maybe add a method to check internet connection?
+* Add cross-rates.
+* Add other currency sources.
+   - Google finance
+   - Yahoo
+   - Is bankasi
+   - Garanti ...
+* Add option to force download (bypass cahce).
+* Better error handling (e.g. urllib.open?)
+   - What happens when tcmb is down?
+* Add precision as a parameter. --DONE--
+* Introduce number formatting options 
+   - decimal and thousands separators. 
+   - For inputs and for outputs.
+* Batch mode: Read inputs from a file.
+* List rates, currency codes.
+* Adjust precision of rate so that four(?) significant digits are always
+   visible.
+* Is BanknoteSelling the conversion type most people use?
+* Turkish language (if I'm gonna use sources in Turkey)
+* Don't yak about yesterday's rates by default. Introduce a verbose
+   mode. --DONE--
+* Check the time before you try to download rates. Timezone stuff. (Is
+   this needed?)
+
