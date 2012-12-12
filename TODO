@@ -26,4 +26,6 @@
    mode. --DONE--
 * Check the time before you try to download rates. Timezone stuff. (Is
    this needed?)
+* Do proper I18N and L10N. Maybe wih gettext?
+
 
